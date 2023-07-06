@@ -35,7 +35,7 @@ class XaptLivingRoomLight(NewLight):
         )
 
         self.entities["light.living_room_group"] = None
-        # self.switch = "LivingRoom Switch"
+        self.switch = "Kitchen Switch"
         # self.motion_sensors.append("Dining Room Motion Sensor")
 
         self.has_brightness_threshold = True
